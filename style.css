@@ -45,7 +45,7 @@ body {
     height: 66px;
     width: 227px;
     border-radius: 18px 18px 5px 5px;
-    position: absolute;
+    /* position: absolute; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -115,4 +115,44 @@ body {
     margin-left: 85px;
     font-size: 10px;
     font-weight: 400;
+}
+
+.innerMobile_body {
+    display: flex;
+    flex-direction: column;
+}
+
+.messageBubble {
+    max-width: 128px;
+    border-radius: 16px;
+    padding: 8px;
+    font-size: 9px;
+    margin: 5px 5px;
+}
+
+.messageBubble_receive {
+    background-color: #EDE5F4;
+    border-bottom-left-radius: 8px;
+    align-self: left;
+    color: var(--Moderate-Violet);
+}
+
+.messageBubble_send {
+    background-color: #ffffff;
+    border-bottom-right-radius: 8px;
+    align-self: flex-end;
+    color: var(--Desaturated-Dark-Violet);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.message_attachments {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.message_attachment {
+    width: 40px;
+    height: 40px;
+    border-radius: 9px;
+    margin: 5px 5px;
 }
